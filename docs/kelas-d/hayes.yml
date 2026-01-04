@@ -1,0 +1,301 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\MyBook Hype AMD
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 1659
+    content: "\e[?9001h\e[?1004h"
+  - delay: 187
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 21
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 243
+    content: 'PS C:\Users\MyBook Hype AMD> '
+  - delay: 6887
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93mm\e[?25h"
+  - delay: 286
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bmu\e[?25h"
+  - delay: 16
+    content: "\e[?25l\e[m\e[93m\e[6;30Hmuy\e[?25h"
+  - delay: 732
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[6;30Hmu \b\e[?25h"
+  - delay: 256
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[6;30Hm \b\e[?25h"
+  - delay: 778
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\bmy\e[?25h"
+  - delay: 378
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[6;30Hmys\e[?25h"
+  - delay: 292
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[6;30Hmysq\e[?25h"
+  - delay: 245
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[6;30Hmysql\e[?25h"
+  - delay: 2004
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;30Hmysql \e[?25h"
+  - delay: 684
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[6;30Hmysql \e[37m-\e[?25h"
+  - delay: 620
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[6;30Hmysql \e[90m-u\e[?25h"
+  - delay: 1590
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[?25h"
+  - delay: 346
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mr\e[?25h"
+  - delay: 135
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mro\e[?25h"
+  - delay: 151
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mroo\e[?25h"
+  - delay: 198
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mroot\e[?25h"
+  - delay: 861
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mroot \e[?25h"
+  - delay: 753
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mroot -\e[?25h"
+  - delay: 1367
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[6;30Hmysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 906
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
+  - delay: 90
+    content: E
+  - delay: 19
+    content: 'nter password: '
+  - delay: 696
+    content: '*'
+  - delay: 248
+    content: "\r\n"
+  - delay: 89
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 20
+    content: "\e[?25l\r\nYour MariaDB connection id is 9\r\nServer version: 11.8.3-MariaDB mariadb.org binary distribution\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 25628
+    content: u
+  - delay: 171
+    content: s
+  - delay: 194
+    content: e
+  - delay: 636
+    content: ' '
+  - delay: 831
+    content: l
+  - delay: 86
+    content: a
+  - delay: 198
+    content: t
+  - delay: 138
+    content: i
+  - delay: 225
+    content: h
+  - delay: 152
+    content: a
+  - delay: 178
+    content: 'n'
+  - delay: 1127
+    content: "\r\n"
+  - delay: 21
+    content: "Database changed\r\nMariaDB [latihan]> "
+  - delay: 6799
+    content: s
+  - delay: 89
+    content: h
+  - delay: 245
+    content: o
+  - delay: 310
+    content: w
+  - delay: 239
+    content: ' '
+  - delay: 210
+    content: d
+  - delay: 162
+    content: a
+  - delay: 197
+    content: t
+  - delay: 165
+    content: a
+  - delay: 139
+    content: b
+  - delay: 248
+    content: a
+  - delay: 147
+    content: s
+  - delay: 226
+    content: e
+  - delay: 158
+    content: s
+  - delay: 476
+    content: ;
+  - delay: 222
+    content: "\r\n"
+  - delay: 8
+    content: "+--------------------+\r\n| Database           |\r\n+--------------------+\r\n| arsip1             |\r\n| fathan1            |\r\n| information_schema |\r\n| latihan            |\r\n| mysql              |\r\n| performance_schema |\r\n| perpustakaan       |\r\n| showroom           |\r\n| sys                |\r\n+--------------------+\r\n9 rows in set (0.002 sec)\r\n\nMariaDB [latihan]>\e[1C"
+  - delay: 7897
+    content: "Ctrl-C -- exit!\r\nBye"
+  - delay: 23
+    content: "\r\n"
+  - delay: 25
+    content: 'PS C:\Users\MyBook Hype AMD> '
+  - delay: 1363
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93me\e[?25h"
+  - delay: 460
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\bex\e[?25h"
+  - delay: 279
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[30;30Hexi\e[?25h"
+  - delay: 277
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[30;30Hexit\e[?25h"
+  - delay: 2356
+    content: "\e[m"
+  - delay: 10
+    content: "\r\n"
